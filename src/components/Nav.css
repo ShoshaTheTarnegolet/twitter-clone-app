@@ -1,0 +1,23 @@
+.nav {
+  background: #343a40;
+  margin: 0 10%;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+}
+.nav-link {
+  text-decoration: none;
+  color: #6c757d;
+  padding: 0 20px;
+}
+.selected {
+  color: #fff;
+}

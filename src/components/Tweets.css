@@ -1,0 +1,28 @@
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+}
+.posts-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.containerBtn {
+  text-align: center;
+}
+.postsBtn {
+  flex: 0 0 auto;
+  width: 25%;
+  padding: 5px 18px;
+  line-height: 28px;
+  background-color: #2980b9;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 400;
+}

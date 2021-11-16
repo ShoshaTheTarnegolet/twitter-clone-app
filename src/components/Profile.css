@@ -1,0 +1,109 @@
+.profile-container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.profile-container .spinner-box {
+  z-index: 99;
+  left: 40%;
+}
+.profile-card {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 700px;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #141414;
+}
+.profile-card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.profile-card img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.profile-card figcaption {
+  width: 100%;
+  background-color: #141414;
+  padding: 25px;
+  position: relative;
+}
+.profile-card figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
+}
+.btnBlock {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+.profile-card figcaption button {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 47%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.profile-card figcaption button:hover {
+  opacity: 1;
+}
+.profile-card figcaption button:disabled {
+  opacity: 0.35;
+}
+.profile-card .uploadBtn {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.profile-card .profileImg {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  width: 90px;
+  height: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card h2 {
+  margin: 0 0 5px;
+  font-weight: 400;
+}
+.profile-card p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+.profile-card input {
+  margin: 10px 0;
+}

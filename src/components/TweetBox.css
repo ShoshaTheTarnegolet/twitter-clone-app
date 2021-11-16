@@ -1,0 +1,66 @@
+.tweet-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.tweet-form-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.tweet-form-textarea {
+  background: none;
+  border: 0;
+  outline: none;
+  width: 100%;
+  min-height: 70px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+.tweet-form-textarea::placeholder {
+  color: white;
+}
+.tweet-length {
+  background-color: transparent;
+  border: none;
+  color: #6c757d;
+  font: inherit;
+}
+
+/* — ‘God damn it, you’ve got to be kind.” ― Kurt Vonnegut, God Bless You, Mr. Rosewater */
+
+.tweet-form-submit {
+  flex: 0 0 auto;
+  padding: 5px 18px;
+  width: auto;
+  line-height: 28px;
+  background-color: #2980b9;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.error {
+  width: 338px;
+  background-color: #f5c6cb;
+  color: #721c24;
+  padding: 7px;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

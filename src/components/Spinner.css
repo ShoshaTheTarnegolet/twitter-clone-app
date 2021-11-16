@@ -1,0 +1,75 @@
+
+.spinner-box {
+  width: 300px;
+  height: 300px;
+  top: 40%;
+  left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14.5px);
+  -webkit-backdrop-filter: blur(14.5px);
+  border-radius: 10px;
+  position: absolute;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.leo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.blue-orbit {
+  width: 165px;
+  height: 165px;
+  border: 1px solid #91daffa5;
+}
+
+.green-orbit {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #91ffbfa5;
+}
+
+.red-orbit {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #ffca91a5;
+}
+
+.white-orbit {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ffffff;
+}
+
+.w1 {
+  transform: rotate3D(1, 1, 1, 90deg);
+  -webkit-transform: rotate3D(1, 1, 1, 90deg);
+  -moz-transform: rotate3D(1, 1, 1, 90deg);
+  -ms-transform: rotate3D(1, 1, 1, 90deg);
+  -o-transform: rotate3D(1, 1, 1, 90deg);
+}
+
+.w2 {
+  transform: rotate3D(1, 2, 0.5, 90deg);
+  -webkit-transform: rotate3D(1, 2, 0.5, 90deg);
+  -moz-transform: rotate3D(1, 2, 0.5, 90deg);
+  -ms-transform: rotate3D(1, 2, 0.5, 90deg);
+  -o-transform: rotate3D(1, 2, 0.5, 90deg);
+}
+
+.w3 {
+  transform: rotate3D(0.5, 1, 2, 90deg);
+  -webkit-transform: rotate3D(0.5, 1, 2, 90deg);
+  -moz-transform: rotate3D(0.5, 1, 2, 90deg);
+  -ms-transform: rotate3D(0.5, 1, 2, 90deg);
+  -o-transform: rotate3D(0.5, 1, 2, 90deg);
+}
